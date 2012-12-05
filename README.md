@@ -9,7 +9,7 @@ Used Programs/Tools:
 Command Line; Net Beans; Chrome;
 
 Extra tools/frameworks:
-Zend Framework 1.12; Doctrine 2.2.3
+Zend Framework 1.12; Doctrine 2.2.3;
 
 
 Steps
@@ -30,10 +30,6 @@ Steps
 
 - Add local.robot into /etc/hosts;
 
-- Setting up project 
-
-- Setup Netbeans's project; 
-
 - Create database and table;
     Create schema test;
     Create table robot (
@@ -42,12 +38,10 @@ Steps
             y tinyint(1) not null, 
             face varchar(10) not null
     );
-
     insert into robot values (null, 1,3,'NORTH');
 
 ps: It's been using the user foo and password 123 to access the database test, it can be changed at application/configs/application.ini line 113 and 114
 
-- Config ZF/Doctrine;
 
 
 --------------------------------------------------------------------------------
